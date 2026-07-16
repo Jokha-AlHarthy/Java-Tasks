@@ -1,4 +1,4 @@
-# Java-Task-2
+# Java-Tasks
 
 This repository was created for a task and is intended solely for completing the required assessments.
 
