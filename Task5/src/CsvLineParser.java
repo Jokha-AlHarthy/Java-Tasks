@@ -1,4 +1,4 @@
-public class CSVLineParseri {
+public class CSVLineParser{
     public static void main(String[] args){
         //Read one line like "Ali, 25, Muscat" with a Scanner
         IO.println("Enter line like this Ali, 25, Muscat");
@@ -22,7 +22,7 @@ public class CSVLineParseri {
         String ageGroup = "";
         if(age < 18){
             ageGroup = "Minor";
-        } else if (age>18 && age<=64) {
+        } else if (age>= 18 && age<=64) {
             ageGroup = "Adult";
         } else {
             ageGroup = "Senior";
