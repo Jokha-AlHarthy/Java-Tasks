@@ -1,4 +1,4 @@
-public class CSVLineParser{
+public class CsvLineParser{
     public static void main(String[] args){
         //Read one line like "Ali, 25, Muscat" with a Scanner
         IO.println("Enter line like this Ali, 25, Muscat");
