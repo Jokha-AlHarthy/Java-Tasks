@@ -59,13 +59,22 @@ public class NumberStackAnalyzer {
                         }
                         break;
                     case 4: //Display All Numbers
+                       if(integerValues.isEmpty()){
+                           System.out.println("Stack is empty");
+                       }else{
+                           for(int num: integerValues){
+                               System.out.println("Displaying all numbers: "+num);
+                           }
+                       }
+                       break;
+                    case 5: //Analyze Numbers
                         if(integerValues.isEmpty()){
                             System.out.println("Stack is empty");
                         }else {
                             int totalElements = integerValues.size();
                             int sum = 0;
-                            int largest = Integer.MAX_VALUE;
-                            int lowest = Integer.MIN_VALUE;
+                            int largest = Integer.MIN_VALUE;
+                            int lowest = Integer.MAX_VALUE;
                             int evenNum = 0;
                             int oddNum = 0;
                             int posNum = 0;
@@ -117,6 +126,12 @@ public class NumberStackAnalyzer {
                             System.out.println("Total negative numbers: "+negNum);
                             System.out.println("Total zeros: "+zeroNum);
                         }
+                        break;
+                    case 6: //Exit
+                        System.out.println("Exit");
+                        break;
+                    default:
+                        System.out.println("Invalid number!");
                 }
             }while(choice!=6);
         }
