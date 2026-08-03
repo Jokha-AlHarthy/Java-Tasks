@@ -119,8 +119,15 @@ public class SmartParkingGarage {
                         if(parkedVehicles.isEmpty()){
                             System.out.println("No vehicles are parked");
                         }else {
-                            for(int i=parkedVehicles.size()-1; i>= 0; i--){
-                                System.out.println(parkedVehicles.get(i));
+                            Stack<String>tempStack = new Stack<>();
+                            while (!parkedVehicles.isEmpty()){
+                                String vehicle = parkedVehicles.pop();
+                                System.out.println(vehicle);
+                                tempStack.push(vehicle);
+                            }
+
+                            while (!tempStack.isEmpty()){
+                                parkedVehicles.push(tempStack.pop());
                             }
                             System.out.println("Garage Capacity :"+maxParking);
                             System.out.println("Occupied Spaces :"+occupied);
