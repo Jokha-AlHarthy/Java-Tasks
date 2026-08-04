@@ -16,6 +16,6 @@ public class RecursionTask377 {
         System.out.println("countDigits(45)→ "+countDigits(45));
         System.out.println("countDigits(1000)→ "+countDigits(1000));
         System.out.println("countDigits(999999)→ "+countDigits(999999));
-        
+
     }
 }
