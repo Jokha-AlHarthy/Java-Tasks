@@ -10,7 +10,7 @@ public class RecursionTask377 {
 
     }
 
-    //calling the function inside the main
+    //calling the function inside main
     public static void main(String[] args){
         System.out.println("countDigits(7)→ "+ countDigits(7));
         System.out.println("countDigits(45)→ "+countDigits(45));
