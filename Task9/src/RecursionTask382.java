@@ -1,10 +1,11 @@
 public class RecursionTask382 {
     public static boolean isEven (int num){
-        //Base call
+        //Base call for even numbers
         if(num== 0){
             return true;
         }
 
+        //Base call for odd numbers
         if(num==1){
             return false;
         }
