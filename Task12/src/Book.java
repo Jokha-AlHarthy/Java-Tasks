@@ -16,18 +16,22 @@ public class Book {
         b.title = "Java Basics";
         b.author = "Maryam";
 
+        //Give each book a different title
         Book b1 = new Book();
         b1.title = "Python";
         b1.author = "by Ishaq";
 
+        //Give each book a different title.
         Book b2 = new Book();
         b2.title = "C++";
         b2.author = "by Fatma";
 
+        //Give each book a different title.
         Book b3 = new Book();
         b3.title = "JavaScript";
         b3.author = "by Salim";
 
+        //Call printInfo() on all three.
         b.printInfo();
         b1.printInfo();
         b2.printInfo();
