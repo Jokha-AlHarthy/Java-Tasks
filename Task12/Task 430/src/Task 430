@@ -1,0 +1,5 @@
+/* Polymorphism stands for many forms, means that same method call can do different things depending on the actual concept
+Two types of Polymorphism:
+- A dynamic method which is overriding & it's a subclass that provides a specific way to run a method that is already defined in parent class
+- A static method that share the same name but take different parameters or inputs
+* */
