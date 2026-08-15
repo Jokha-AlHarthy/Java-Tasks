@@ -1,0 +1,13 @@
+/*
+* 1. What is the difference between an interface and an abstract class?
+* - Interface: It refers to what to do or a rules that can't hold instance state
+* - Abstract: It refers to providing shared base code or a partial implementation in short (how to do it)
+* 2. Why can a class implement many interfaces but extend only one class?
+* - Single class: it prevents state conflict and memory ambiguity because classes hols instance variables
+* - Multiple classes: it's safe because interfaces can't hold instance state and it avoid data collision.
+* 3. What is the diamond problem? (One child, two parents, both have the same method — which one
+     runs?) How does Java avoid it?
+* Problem: ambiguity when a child inherits conflicting methods from two percents
+* Java's class solution: Enforce only single inheritance for classes.
+* Java's interface solution: if default interface methods conflict, the complier forces you to manually override and specify the winner
+*/
